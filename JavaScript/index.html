@@ -5,23 +5,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Praticando Lógica de Programação</title>
+
+    <style>
+        h1 {
+            text-align: center;
+            margin: 5%;
+        }
+
+        .colunas {
+            display: flex;
+            justify-content: center;
+            gap: 25%;
+
+        }
+
+        body {
+            background: darkblue;
+            color: aliceblue;
+        }
+
+        section {
+            display: flex;
+            justify-content: center;
+        }
+
+        .conteudo-livros {
+            text-align: center;
+            border: 2px solid black;
+            width: 50%;
+        }
+        
+    </style>
+
 </head>
 
 <body>
-    <h1>Seguindo na Prática da Lógica de Programação!</h1>
-    <p>Exercícios do Manzano</p>
+    <main>
 
-    <h2>Vetor e Matriz</h2>
-    <p id="paragrafo">Saiba Mais Sobre o Vetor Apertando o Botão Abaixo:</p>
-    <button type="button" onclick=Mostrar()>Clique Aqui</button>
+        <h1>Seguindo na Prática da Lógica de Programação!</h1>
 
-    <script>
-        function Mostrar(){
-            return document.getElementById("paragrafo").innerHTML="Vetor é um gabinete de elementos"
-        }
-    </script>
 
-    <script src="JavaScript/atividade81.js"></script>
+        <section class="livros">
+            <div class="conteudo-livros">
+
+                <h2>Exercícios de Lógica dos Livros</h2>
+
+                <div class="colunas">
+
+                    <div>
+                        <p>Manzano 2000</p>
+                    </div>
+
+                    <p>Faccat 2007</p>
+
+                </div>
+
+                <p>Para Encontrar Alguns Exercícios no VisualG</p>
+
+                <button type="button"><a target="_blank"
+                        href="https://github.com/hana-9/Logica-de-Programacao/tree/main/L%C3%B3gica%20de%20Programa%C3%A7%C3%A3o%20VisualG">VisualG</a></button>
+
+            </div>
+        </section>
+
+        <script src="JavaScript/atividade01.js"></script>
+
+    </main>
 </body>
 
 </html>

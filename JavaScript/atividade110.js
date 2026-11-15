@@ -11,6 +11,3 @@ while (contador < 10) {
     contador = contador + 1
 }
 
-function Mostrar() {
-    document.getElementById("paragrafo").innerHTML = `Segue os elementos do vetor: ${elementos}`
-}
